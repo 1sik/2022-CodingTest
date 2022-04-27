@@ -1,0 +1,8 @@
+"""
+설명 : list의 함수들을 사용해봤습니다.
+code : sum, len
+"""
+
+
+def solution(arr):
+  return sum(arr)/len(arr)
