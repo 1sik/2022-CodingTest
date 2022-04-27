@@ -1,0 +1,12 @@
+"""
+설명 : if문을 사용해봤습니다.
+code : if, else, retrun
+"""
+
+
+def solution(num):
+    if num % 2 == 0:
+        return 'Even'
+    else:
+        return 'Odd'
+    return
