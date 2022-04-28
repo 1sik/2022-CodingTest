@@ -1,0 +1,9 @@
+"""
+설명 : list map 함수를 사용해봤습니다.
+code : list, map, sum
+"""
+
+
+def solution(n):
+    answer = list(map(int,str(n)))
+    return sum(answer)
