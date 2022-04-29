@@ -1,0 +1,11 @@
+"""
+설명 : list 함수들을 사용해봤습니다.
+code : list, reverse, map
+"""
+
+
+def solution(n):
+    answer = list(str(n))
+    answer.reverse()
+    result = list(map(int, answer))
+    return result
