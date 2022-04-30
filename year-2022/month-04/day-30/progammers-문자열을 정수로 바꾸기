@@ -1,0 +1,9 @@
+"""
+설명 : 문자열을 int를 사용해 정수로 바꿔 보았습니다.
+code : int
+"""
+
+
+def solution(s):
+    answer = int(s)
+    return answer
