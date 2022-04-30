@@ -1,0 +1,9 @@
+"""
+설명 : 문자열 길이를 정해보았습니다.
+code : len, [:]
+"""
+
+
+def solution(phone_number):
+    answer = (len(phone_number)-4)*"*" + phone_number[-4:]
+    return answer
