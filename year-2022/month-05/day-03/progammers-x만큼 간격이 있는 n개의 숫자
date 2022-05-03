@@ -1,0 +1,11 @@
+"""
+설명 : for 문을 이용해 x 부터 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴했습니다.
+code : for, append
+"""
+
+
+def solution(x, n):
+    answer = []
+    for i in range(1, n+1):
+        answer.append(x*i)
+    return answer
