@@ -1,0 +1,12 @@
+"""
+설명 : 단어의 길이를 홀수, 짝수로 나뉘어 값을 구해주었습니다.
+code : if, len
+"""
+
+
+def solution(s):
+    if len(s) % 2 == 1:
+        return s[len(s)//2]
+    else:
+        return s[(len(s)//2 - 1) : (len(s)//2 + 1)]
+    return
