@@ -1,0 +1,9 @@
+"""
+설명 : list에 값을 넣어주고 sum을 이용해 없는 숫자를 더해주었습니다.
+code : list, sum
+"""
+
+
+def solution(numbers):
+    list = [1,2,3,4,5,6,7,8,9]
+    return sum(list) - sum(numbers)
