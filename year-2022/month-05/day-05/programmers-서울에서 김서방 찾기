@@ -1,0 +1,13 @@
+"""
+설명 : index를 이용해 'Kim'을 찾아서 String을 반환하는 함수를 만들어봤습니다.
+code : index, str
+"""
+
+
+def solution(seoul):
+    answer = ''
+    
+    result = seoul.index('Kim')
+    answer = '김서방은 ' + str(result) + '에 있다'
+    
+    return answer
